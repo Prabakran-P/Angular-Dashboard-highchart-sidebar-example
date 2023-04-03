@@ -10,11 +10,10 @@ const routes: Routes = [{
   children: [{
     path: '',
     component: DashboardComponent
-  }, {
-    path: 'posts',
-    component: PostsComponent
-  }]
-}];
+  } ]}
+
+
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
